@@ -20,9 +20,9 @@ const HeroSection = () => {
         </div>
         {/* This div section is for the body text */}
         <div className="md-w-3/5 md:mt-2">
-          <h1 className="font-bold text-4xl mt-6 md:text-7xl md:mt-0"> Hi, I'm Lam! </h1>
+          <h1 className="font-bold text-4xl mt-6 md:text-7xl md:mt-0"> Hi, I&apos;m Lam! </h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
-            I'm a full-stack data scientist |{" "}
+            I&apos;m a full-stack data scientist |{" "}
             <a
               href="https://www.credly.com/badges/a6979767-37b9-4c4f-a6ed-bfc0b96c2c77/public_url"
               target="_blank"
@@ -31,7 +31,7 @@ const HeroSection = () => {
             >
               AWS-certified Solutions Architect
             </a>{" "}
-            | Web3 Builder based in Tokyo, Japan. I'm passionate about building products in the Web3 space.
+            | Web3 Builder based in Tokyo, Japan. I&apos;m passionate about building products in the Web3 space.
           </p>
           <Link
             to="projects"
