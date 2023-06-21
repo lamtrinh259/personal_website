@@ -52,7 +52,8 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-        <div className={`flex-1 justify-end space-x-6 hidden md:flex items-center`}>
+        <div className={`flex items-center justify-end space-x-6 md:flex  ${navbar ? "block" : "hidden"
+          }`}>
           <div className="flex space-x-6">
             {NAV_ITEMS.map((item, index) => (
               <Link
@@ -72,7 +73,7 @@ const Navbar = () => {
           </div>
           {currentTheme === "dark" ? (
             <button onClick={() => setTheme("light")} className="bg-slate-100 p-2 rounded-xl">
-              <RiSunFill size={24} />
+              <RiSunFill size={24} color="black" />
             </button>
           ) : (
             <button onClick={() => setTheme("dark")} className="bg-slate-100 p-2 rounded-xl">

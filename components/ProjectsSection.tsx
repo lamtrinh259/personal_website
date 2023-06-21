@@ -65,7 +65,7 @@ const ProjectsSection = () => {
           return (
             <div key={index}>
               <div className="flex flex-col md:flex-row md:space-x-12">
-                <div className="mt-8 md:w-1/2">
+                <div className="mt-16 md:mt-8 md:w-1/2">
                   <Link href={project.link} target="_blank">
                     <Image
                       src={project.image}
