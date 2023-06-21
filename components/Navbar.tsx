@@ -52,7 +52,8 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-        <div className={`flex-1 justify-end space-x-6 hidden md:flex items-center`}>
+        <div className={`flex-1 justify-end space-x-6 md:flex items-center ${navbar ? "block" : "hidden"
+          }`}>
           <div className="flex space-x-6">
             {NAV_ITEMS.map((item, index) => (
               <Link
