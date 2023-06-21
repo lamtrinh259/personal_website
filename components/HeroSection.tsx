@@ -32,6 +32,19 @@ const HeroSection = () => {
               AWS-certified Solutions Architect
             </a>{" "}
             | Web3 Builder based in Tokyo, Japan. I&apos;m passionate about building products in the Web3 space.
+            You can view my <a
+              href="https://drive.google.com/file/d/16XurNxEn0YEx0RAXLzuJZKd5Lp8YAknv/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline"
+            >English CV here</a>. 日本語の
+            <a
+              href="https://drive.google.com/file/d/12jGuPKy3VB0obVU-u4MuDoYXiHfLF0EJ/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline"
+            >履歴書はこちら</a>
+            です。
           </p>
           <Link
             to="projects"
