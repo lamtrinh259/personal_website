@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="text-neutral-500 dark:text-neutral-100">
           © 2023 Lam Trinh<a href="/" className="hover:underline"></a>
         </div>
-        <div className="flex flex-row items-center justify-end space-x-2 mb-1">
+        <div className="flex flex-row items-center justify-center space-x-2 mb-1">
           <a href="https://github.com/lamtrinh259" rel="noreferrer" target="_blank">
             <AiOutlineGithub
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
