@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   experimental: {
-    appDir: true,
+    appDir: false,
   },
   // This option would automatically reload the website when there is a change in the code
   webpackDevMiddleware: (config) => {
