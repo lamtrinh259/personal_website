@@ -1,3 +1,5 @@
+// This file creates a layout component that wraps around the landing page and any other pages created in the app folder
+
 "use client"
 import "../styles/globals.css"
 import Navbar from "@/components/Navbar"

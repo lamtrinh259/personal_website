@@ -1,3 +1,5 @@
+// This file corresponds to the html element (metadata) of the landing page
+
 export default function Head() {
   return (
     <>

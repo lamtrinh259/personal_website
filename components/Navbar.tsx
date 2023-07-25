@@ -2,6 +2,7 @@
 import React from "react"
 import { useState } from "react"
 import { Link } from "react-scroll/modules"
+import NextLink from "next/link";
 import { usePathname } from "next/navigation"
 import { useTheme } from "next-themes"
 import { RiMoonFill, RiSunFill, RiSunLine } from "react-icons/ri"
@@ -25,6 +26,10 @@ const NAV_ITEMS: Array<NavItem> = [
     label: "Projects",
     page: "projects",
   },
+  {
+    label: "Blog",
+    page: "/blog", // takes users to the blog landing page
+  }
 ];
 
 const Navbar = () => {
@@ -55,7 +60,16 @@ const Navbar = () => {
         <div className={`flex items-center justify-end space-x-6 md:flex  ${navbar ? "block" : "hidden"
           }`}>
           <div className="flex space-x-6">
-            {NAV_ITEMS.map((item, index) => (
+          {NAV_ITEMS.map((item, index) => (
+            // Check if the current item is the "Blog" link
+            item.label === "Blog" ? (
+              <NextLink key={index} href={item.page}>
+                <a className="text-lg font-medium text-slate-900 hover:text-slate-700 dark:text-slate-100 dark:hover:text-slate-300">
+                  {item.label}
+                </a>
+              </NextLink>
+            ) : (
+              // For other links, continue using react-scroll's Link
               <Link
                 key={index}
                 to={item.page}
@@ -69,7 +83,8 @@ const Navbar = () => {
               >
                 {item.label}
               </Link>
-            ))}
+            )
+          ))}
           </div>
           {currentTheme === "dark" ? (
             <button onClick={() => setTheme("light")} className="bg-slate-100 p-2 rounded-xl">
