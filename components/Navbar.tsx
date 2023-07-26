@@ -28,7 +28,7 @@ const NAV_ITEMS: Array<NavItem> = [
   },
   {
     label: "Blog",
-    page: "/blog", // takes users to the blog landing page
+    page: "blog", // takes users to the blog landing page
   }
 ];
 
