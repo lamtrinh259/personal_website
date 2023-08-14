@@ -1,7 +1,11 @@
 {
   "name": "temp",
+  "homepage": "./",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -15,7 +19,10 @@
     "@types/react-dom": "18.0.10",
     "eslint": "8.32.0",
     "eslint-config-next": "13.1.6",
+    "gray-matter": "^4.0.3",
+    "install": "^0.13.0",
     "intersection-observer": "^0.12.2",
+    "markdown-to-jsx": "^7.3.2",
     "next": "13.1.6",
     "next-themes": "^0.2.1",
     "react": "18.2.0",
