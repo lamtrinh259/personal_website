@@ -29,7 +29,7 @@ const HeroSection = () => {
               rel="noopener noreferrer"
               className="underline"
             >
-              Colors of Web3 & Entrepreneurship
+               Colors of Web3 & Entrepreneurship
             </a>{" "} on YouTube |
             Full-stack data scientist |{" "}☁️
             <a
@@ -38,7 +38,7 @@ const HeroSection = () => {
               rel="noopener noreferrer"
               className="underline"
             >
-              AWS-certified Solutions Architect
+               AWS-certified Solutions Architect
             </a>{" "}
             | 🌏 Global traveler based in Tokyo, Japan. I&apos;m passionate about building products in the Web3 space.
             You can view and follow my <a
