@@ -40,7 +40,7 @@ const AboutSection = () => {
               Hi, my name is Lam and I am an {" "}
               <span className="font-bold">analytical</span>,
               <span className="font-bold"> entrepreneurial</span>, and
-              <span className="font-bold"> quadrilingual</span> full-stack data scientist and Web3 builder.
+              <span className="font-bold"> quadrilingual</span> Web3 Product Manager / Engineer and full-stack data scientist.
             </p>
             <br />
             <p>
@@ -53,9 +53,9 @@ const AboutSection = () => {
             <br />
             <p>
               Recently, there are two things that get me going every day: listening to thought-provoking audio-books + writings,
-              and exploring the world of data science and Web3 through Python, SQL, statistics, and Solidity. I hope that I
-              can utilize my newfound knowledge and passion to extract meaning from (raw) data in order to help companies
-              solve challenging problems.
+              and talking to people in Web3 & Entrepreneurship in my own podcast on YouTube. I want to make Web3 topics
+              accessible for people both inside and outside of the crypto space, and also highlight the entrepreneurial
+              journey of founders in both Web2 (non-blockchain) and Web3 spaces.
             </p>
             <br />
             <p>
