@@ -22,7 +22,7 @@ const HeroSection = () => {
         <div className="md-w-3/5 md:mt-2">
           <h1 className="font-bold text-4xl mt-6 md:text-7xl md:mt-0"> Hi, I&apos;m Lam! </h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
-            I&apos;m a Web3 Product Manager / Engineer |🎙️ Podcast Host of
+            I&apos;m a Web3 Product Manager / Engineer | 🎙️ Podcast Host of
             <a
               href="https://www.youtube.com/channel/UCZkB6EsFenFzIm1-a01cfsw/"
               target="_blank"
@@ -30,7 +30,7 @@ const HeroSection = () => {
               className="underline"
             >
               Colors of Web3 & Entrepreneurship
-            </a>{" "} on YouTube|
+            </a>{" "} on YouTube |
             Full-stack data scientist |{" "}☁️
             <a
               href="https://www.credly.com/badges/a6979767-37b9-4c4f-a6ed-bfc0b96c2c77/public_url"
@@ -41,7 +41,7 @@ const HeroSection = () => {
               AWS-certified Solutions Architect
             </a>{" "}
             | 🌏 Global traveler based in Tokyo, Japan. I&apos;m passionate about building products in the Web3 space.
-            You can view my <a
+            You can view and follow my <a
               href="https://www.linkedin.com/in/lamtrinh/"
               target="_blank"
               rel="noopener noreferrer"
@@ -60,19 +60,6 @@ const HeroSection = () => {
             Projects
           </Link>
         </div>
-        {/* <div>
-        <Link
-            to="projects"
-            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
-            activeClass="active"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-          >
-            Projects
-          </Link>
-          </div> */}
       </div>
       <div className="flex flex-row justify-center">
         <Link to="about" activeClass="active" spy={true} smooth={true} offset={-100} duration={500}>

@@ -53,9 +53,9 @@ const AboutSection = () => {
             <br />
             <p>
               Recently, there are two things that get me going every day: listening to thought-provoking audio-books + writings,
-              and talking to people in Web3 & Entrepreneurship in my own podcast on YouTube. I want to bring make Web3 topics
-              accessible for people outside of the crypto space, and also highlight the entrepreneurial journey of founders
-              in both Web2 (non-blockchain) and Web3 spaces.
+              and talking to people in Web3 & Entrepreneurship in my own podcast on YouTube. I want to make Web3 topics
+              accessible for people both inside and outside of the crypto space, and also highlight the entrepreneurial
+              journey of founders in both Web2 (non-blockchain) and Web3 spaces.
             </p>
             <br />
             <p>
