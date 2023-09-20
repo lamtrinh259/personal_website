@@ -22,23 +22,23 @@ const HeroSection = () => {
         <div className="md-w-3/5 md:mt-2">
           <h1 className="font-bold text-4xl mt-6 md:text-7xl md:mt-0"> Hi, I&apos;m Lam! </h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
-            I&apos;m a Web3 Product Manager / Engineer | 🎙️ Podcast Host of
+            I&apos;m a Web3 Product Manager / Engineer | 🎙️ Podcast Host of&nbsp;
             <a
               href="https://www.youtube.com/channel/UCZkB6EsFenFzIm1-a01cfsw/"
               target="_blank"
               rel="noopener noreferrer"
               className="underline"
             >
-               Colors of Web3 & Entrepreneurship
-            </a>{" "} on YouTube |
-            Full-stack data scientist |{" "}☁️
+            Colors of Web3 & Entrepreneurship
+            </a>{" "} on YouTube (please subscribe if you like the show) |
+            Full-stack data scientist |{" "}☁️&nbsp;
             <a
               href="https://www.credly.com/badges/a6979767-37b9-4c4f-a6ed-bfc0b96c2c77/public_url"
               target="_blank"
               rel="noopener noreferrer"
               className="underline"
             >
-               AWS-certified Solutions Architect
+            AWS-certified Solutions Architect
             </a>{" "}
             | 🌏 Global traveler based in Tokyo, Japan. I&apos;m passionate about building products in the Web3 space.
             You can view and follow my <a
