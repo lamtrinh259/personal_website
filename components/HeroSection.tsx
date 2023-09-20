@@ -1,8 +1,8 @@
 "use client" // this is a client component
 import React from "react"
 import Image from "next/image"
-import { Link as ScrollLink } from 'react-scroll';
-import { Link } from "react-scroll/modules"
+import { Link as ScrollLink } from 'react-scroll'; // Alias the Link component from react-scroll
+import NextLink from 'next/link'; // Use a different name for the Link component from Next.js
 import { HiArrowDown } from "react-icons/hi"
 
 const HeroSection = () => {
@@ -63,9 +63,9 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="flex flex-row justify-center">
-        <Link to="about" activeClass="active" spy={true} smooth={true} offset={-100} duration={500}>
+        <NextLink to="about" activeClass="active" spy={true} smooth={true} offset={-100} duration={500}>
           <HiArrowDown className="text-4xl animate-bounce" size={35} />
-        </Link>
+        </NextLink>
       </div>
     </section>
   );
