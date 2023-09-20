@@ -48,7 +48,19 @@ const HeroSection = () => {
               className="underline"
             >LinkedIn here</a>.
           </p>
-          <Link
+          {/* <Link
+            to="projects"
+            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+          >
+            Projects
+          </Link> */}
+        </div>
+        <Link
             to="projects"
             className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
             activeClass="active"
@@ -59,7 +71,6 @@ const HeroSection = () => {
           >
             Projects
           </Link>
-        </div>
       </div>
       <div className="flex flex-row justify-center">
         <Link to="about" activeClass="active" spy={true} smooth={true} offset={-100} duration={500}>
