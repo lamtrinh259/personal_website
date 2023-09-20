@@ -1,6 +1,7 @@
 "use client" // this is a client component
 import React from "react"
 import Image from "next/image"
+import { Link as ScrollLink } from 'react-scroll';
 import { Link } from "react-scroll/modules"
 import { HiArrowDown } from "react-icons/hi"
 
@@ -48,7 +49,7 @@ const HeroSection = () => {
               className="underline"
             >LinkedIn here</a>.
           </p>
-          <Link
+          <ScrollLink
             to="projects"
             className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
             activeClass="active"
@@ -58,7 +59,7 @@ const HeroSection = () => {
             duration={500}
           >
             Projects
-          </Link>
+          </ScrollLink>
         </div>
       </div>
       <div className="flex flex-row justify-center">
