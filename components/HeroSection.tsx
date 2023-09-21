@@ -30,7 +30,7 @@ const HeroSection = () => {
               className="underline"
             >
             Colors of Web3 & Entrepreneurship
-            </a>{" "} on YouTube (please subscribe if you like the show),
+            </a>{" "} on YouTube (please subscribe if you like the show),&nbsp;
             <a
               href="https://open.spotify.com/show/4H61B1PBJ9eeFz8U6tYwJY"
               target="_blank"
@@ -38,7 +38,7 @@ const HeroSection = () => {
               className="underline"
             >
             Spotify
-            </a>{" "},
+            </a>,{" "}
             <a
               href="https://podcasts.apple.com/us/podcast/colors-of-web3-entrepreneurship/id1707548423"
               target="_blank"
@@ -46,7 +46,7 @@ const HeroSection = () => {
               className="underline"
             >
             Apple Podcasts
-            </a>{" "}, and other podcasting platforms |
+            </a>,{" "} and other podcasting platforms |
             Full-stack data scientist |{" "}☁️&nbsp;
             <a
               href="https://www.credly.com/badges/a6979767-37b9-4c4f-a6ed-bfc0b96c2c77/public_url"
