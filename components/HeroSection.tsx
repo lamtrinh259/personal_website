@@ -58,7 +58,7 @@ const HeroSection = () => {
             </a>{" "}
             | 🌏 Global traveler based in Tokyo, Japan. I&apos;m passionate about building products in the Web3 space.
             You can view and follow my <a
-              href="https://www.linkedin.com/in/lamtrinh/"
+              href="https://www.linkedin.com/in/lamweb3/"
               target="_blank"
               rel="noopener noreferrer"
               className="underline"
