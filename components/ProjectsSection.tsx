@@ -6,6 +6,35 @@ import { BsGithub, BsArrowUpRightSquare, BsYoutube } from "react-icons/bs"
 
 const projects = [
   {
+    name: "Kaidan CRO",
+    description:
+      "An alternative tool to the traditional A/B testing process that helps websites convert better \
+      by allowing website owners to test and deploy multiple versions of their websites using AI agents.",
+    image: "/Kaidan_homepage.png",
+    github: "https://github.com/lamtrinh259/kaidan-cro",
+    link: "https://kaidancro.com/",
+    smart_contract_or_video: "https://riverside.com/dashboard/studios/lam-trinhs-studio/recordings/1a6694c8-6539-4c93-b1b0-3494fd18f579?share-token=810d812eae22892dfb4c&content-shared=recording",
+  },
+  {
+    name: "Crypto Card Guide",
+    description:
+      "A comprehensive directory that lists over 100 crypto cards where users can easily filter and \
+      compare up to 4 cards side by side.",
+    image: "/CryptoCardGuide_homepage.png",
+    github: "https://github.com/lamtrinh259/web3_card_comparison",
+    link: "https://www.cryptocardguide.com/",
+  },
+  {
+    name: "Telegram Gating Bot for Groups",
+    description:
+      "A lightweight, production-ready gatekeeping Telegram bot that ensures every new member \
+      introduces themselves properly before being able to engage in the main group.",
+    image: "/TelegramBot_screenshot.png",
+    github: "https://github.com/lamtrinh259/Telegram_bot_SuperteamMY",
+    link: "https://github.com/lamtrinh259/Telegram_bot_SuperteamMY",
+    smart_contract_or_video: "https://youtu.be/BLc76T6Co6k",
+  },
+  {
     name: "DCHero DAO Member Credential Portal",
     description:
       "We aim to solve the problem of DAOs and their members having to deal with \
@@ -94,12 +123,14 @@ const ProjectsSection = () => {
                         className="hover:-translate-y-1 transition-transform cursor-pointer"
                       />
                     </Link>
-                    <Link href={project.smart_contract_or_video} target="_blank">
-                      <BsYoutube
-                        size={30}
-                        className="hover:-translate-y-1 transition-transform cursor-pointer"
-                      />
-                    </Link>
+                    {project.smart_contract_or_video && (
+                      <Link href={project.smart_contract_or_video} target="_blank">
+                        <BsYoutube
+                          size={30}
+                          className="hover:-translate-y-1 transition-transform cursor-pointer"
+                        />
+                      </Link>
+                    )}
                   </div>
                 </div>
               </div>
