@@ -9,9 +9,9 @@ const skills = [
   { skill: "Tailwind CSS" },
   { skill: "Python" },
   { skill: "Solidity" },
-  { skill: "Python" },
   { skill: "MySQL" },
   { skill: "PostgreSQL" },
+  { skill: "Supabase" },
   { skill: "Airflow" },
   { skill: "Tableau" },
   { skill: "Power BI" },
@@ -21,7 +21,7 @@ const skills = [
   { skill: "AWS" },
   { skill: "GCP" },
   { skill: "Docker" },
-  { skill: "Pulumi" },
+  { skill: "OpenAI API" },
 ]
 
 const AboutSection = () => {
