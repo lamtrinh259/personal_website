@@ -58,14 +58,14 @@ const HeroSection = () => {
             </a>{" "}
             |{" "}☁️&nbsp;
             <a
-              href="https://www.credly.com/badges/a6979767-37b9-4c4f-a6ed-bfc0b96c2c77/public_url"
+              href="https://www.credly.com/badges/0db60df3-8f4a-4cd8-909d-8443ffc401de/public_url"
               target="_blank"
               rel="noopener noreferrer"
               className="underline"
             >
-            AWS-certified Solutions Architect
+            AWS-certified Data Engineer
             </a>{" "}
-            | 🌏 Global traveler based in Tokyo, Japan. I&apos;m passionate about building products in the AI and technology space.
+            | 🌏 Global traveler. I&apos;m passionate about building products in the AI and technology space.
             You can view and follow my <a
               href="https://www.linkedin.com/in/lamglobal/"
               target="_blank"
