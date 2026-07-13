@@ -28,7 +28,7 @@ const Footer = () => {
             />
           </a>
           <a
-            href="https://twitter.com/LamWeb3"
+            href="https://x.com/lamtglobal"
             rel="noreferrer"
             target="_blank"
           >
@@ -39,7 +39,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/lamweb3/"
+            href="https://www.linkedin.com/in/lamglobal/"
             rel="noreferrer"
             target="_blank"
           >
