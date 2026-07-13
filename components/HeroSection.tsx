@@ -47,7 +47,7 @@ const HeroSection = () => {
             >
             Apple Podcasts
             </a>,{" "} and other podcasting platforms |
-            Full-stack data scientist | Currently a Global M&amp;A Broker with{" "}
+            Full-stack data scientist | Global M&amp;A Broker with{" "}
             <a
               href="https://flippa.com/lps/lam-trinh"
               target="_blank"
