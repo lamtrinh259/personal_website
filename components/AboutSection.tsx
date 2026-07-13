@@ -40,7 +40,7 @@ const AboutSection = () => {
               Hi, my name is Lam and I am an {" "}
               <span className="font-bold">analytical</span>,
               <span className="font-bold"> entrepreneurial</span>, and
-              <span className="font-bold"> quadrilingual</span> Web3 Product Manager / Engineer and full-stack data scientist.
+              <span className="font-bold"> quadrilingual</span> Product Manager / Engineer and full-stack data scientist.
             </p>
             <br />
             <p>
@@ -53,17 +53,17 @@ const AboutSection = () => {
             <br />
             <p>
               Recently, there are two things that get me going every day: listening to thought-provoking audio-books + writings,
-              and talking to people in Web3 & Entrepreneurship in my own podcast on YouTube. I want to make Web3 topics
-              accessible for people both inside and outside of the crypto space, and also highlight the entrepreneurial
-              journey of founders in both Web2 (non-blockchain) and Web3 spaces.
+              and talking to people in Tech & Entrepreneurship in my own podcast on YouTube. I want to make AI and tech topics
+              accessible for people both inside and outside of the tech space, and also highlight the entrepreneurial
+              journey of founders in both traditional business and tech spaces.
             </p>
             <br />
             <p>
               I am passionate about {" "}
               <span className="font-bold text-teal-500">
-                Web3, traveling, entrepreneurship, data science
+                AI, tech, traveling, entrepreneurship, data science
               </span>{" "}
-              and learning foreign languages. Currently, I live in Tokyo, Japan. 🙂
+              and learning foreign languages.
             </p>
 
           </div>

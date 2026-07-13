@@ -22,14 +22,14 @@ const HeroSection = () => {
         <div className="md-w-3/5 md:mt-2">
           <h1 className="font-bold text-4xl mt-6 md:text-7xl md:mt-0"> Hi, I&apos;m Lam! </h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
-            I&apos;m a Web3 Product Manager / Engineer | 🎙️ Podcast Host of&nbsp;
+            I&apos;m a Product Manager / Engineer | 🎙️ Podcast Host of&nbsp;
             <a
               href="https://www.youtube.com/channel/UCZkB6EsFenFzIm1-a01cfsw/"
               target="_blank"
               rel="noopener noreferrer"
               className="underline"
             >
-            Colors of Web3 & Entrepreneurship
+            Colors of Tech & Entrepreneurship
             </a>{" "} on YouTube (please subscribe if you like the show),&nbsp;
             <a
               href="https://open.spotify.com/show/4H61B1PBJ9eeFz8U6tYwJY"
@@ -47,7 +47,16 @@ const HeroSection = () => {
             >
             Apple Podcasts
             </a>,{" "} and other podcasting platforms |
-            Full-stack data scientist |{" "}☁️&nbsp;
+            Full-stack data scientist | Currently a Global M&amp;A Broker with{" "}
+            <a
+              href="https://flippa.com/lps/lam-trinh"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline"
+            >
+            Flippa
+            </a>{" "}
+            |{" "}☁️&nbsp;
             <a
               href="https://www.credly.com/badges/a6979767-37b9-4c4f-a6ed-bfc0b96c2c77/public_url"
               target="_blank"
@@ -56,9 +65,9 @@ const HeroSection = () => {
             >
             AWS-certified Solutions Architect
             </a>{" "}
-            | 🌏 Global traveler based in Tokyo, Japan. I&apos;m passionate about building products in the Web3 space.
+            | 🌏 Global traveler based in Tokyo, Japan. I&apos;m passionate about building products in the AI and technology space.
             You can view and follow my <a
-              href="https://www.linkedin.com/in/lamweb3/"
+              href="https://www.linkedin.com/in/lamglobal/"
               target="_blank"
               rel="noopener noreferrer"
               className="underline"
