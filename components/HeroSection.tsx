@@ -47,16 +47,7 @@ const HeroSection = () => {
             >
             Apple Podcasts
             </a>,{" "} and other podcasting platforms |
-            Full-stack data scientist | Global M&amp;A Broker with{" "}
-            <a
-              href="https://flippa.com/lps/lam-trinh"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline"
-            >
-            Flippa
-            </a>{" "}
-            |{" "}☁️&nbsp;
+            Full-stack data scientist |{" "}☁️&nbsp;
             <a
               href="https://www.credly.com/badges/0db60df3-8f4a-4cd8-909d-8443ffc401de/public_url"
               target="_blank"
